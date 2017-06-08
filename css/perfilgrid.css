@@ -1,0 +1,31 @@
+.contenedor-perfil{
+    display: grid;
+    justify-items:center; 
+}
+
+.nav-perfil{
+    display: grid;
+    grid-template-columns: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto{
+    display: grid;
+    grid-template-columns: 100vw;
+    align-items: center;
+    justify-items: center;
+}
+
+.datosUsuario{
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: auto;
+
+   
+}
+
+.datosPorClase{
+    display: grid;
+    grid-template-columns: 1fr; 2fr;
+}
