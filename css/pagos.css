@@ -1,0 +1,32 @@
+.titulo-azul1{
+  color:#00849A;
+}
+.subtitulos{
+
+}
+nav.nav-naranja{
+ background-color: #F29400;
+ height: 80px;
+}
+.white-text{
+  color: #fff;
+}
+.logo{
+  width: 100%;
+  max-height: 200px;
+}
+
+.publicidad{
+  width: 100%;
+}
+body{
+    max-height: 100vh;
+    /* height: 584px; */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+footer{
+  margin-top: 100%;
+}

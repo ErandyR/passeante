@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>PASSEANTE Pagos</title>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"/>
+  <link type="text/css" rel="stylesheet" href="../css/pagos.css"/>
+
+</head>
+<body>
+  <nav class="nav-naranja row ">
+    <div class="col s3">
+             <img src="../assets/img/logopasseante.png" alt="" class="logo responsive-img"> <!-- notice the "circle" class -->
+    </div>
+    <div class=" col s9">
+      <a href="#" class="brand-logo center"><h4 class="">Pagos</h4></a>
+    </div>
+  </nav>
+
+  <section class="container">
+
+    <ul>
+      <li class="row  saldo">
+            <h6 class="col s6"> Saldo </h6>
+            <output name="saldo" class="saldoActualizar col s6">$100 MXN</output>
+      </li>
+      <li class="row opcionesPago formasDePago">
+        <h6 class='dropdown-button col s12' href='#' data-activates='formasDePago'>Formas de Pago</h6>
+        <ul id='formasDePago' class='dropdown-content texto-naranja col s6'>
+          <li><a href="#!">Tarjetas Bancarias.</a></li>
+          <li><a href="#!">Paypal.</a></li>
+          <li class="divider">...</li>
+        </ul>
+      </li>
+      <li class="row opcionesPago movimientos">
+        <h6 class=" col s12">Movimientos</h6>
+      </li>
+      <li class="row opcionesPago configuracionNotificaciones">
+          <h6 class=" col s12">Configuracion de notificaciones</h6>
+      </li>
+    </ul>
+  </section>
+  <div class="relleno">
+
+  </div>
+  <footer class="center ">
+    <div class="row center">
+      <div class="col s12 ">
+          <img src="../assets/img/bannerPublicitario.png" class="responsive img publicidad " alt="_publicidad_">
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/materialize.min.js"></script>
+  <script type="text/javascript" src="../js/pagos.js">
+
+  </script>
+</body>
+</html>

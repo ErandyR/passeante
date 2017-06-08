@@ -1,0 +1,31 @@
+.nav-perfil{
+    text-align: center;
+    background-color: #F29400;
+    color: white;
+}
+.foto{
+    margin-top: 4vh;
+}
+
+.datosUsuario{
+    color: black;
+}
+
+
+@media screen and (max-width: 480px){
+    
+    .datosPorClase{
+        
+        line-height: 5vh;
+    }
+    
+    .salidadatos{
+        
+        height: 4vh;
+        
+    }
+    
+    .boton-regresar{
+        margin-top: 10vh;
+    }
+}
