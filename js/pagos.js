@@ -11,13 +11,12 @@ $(document).ready(function(){
       }
     );
   $(".opcionesPago").hover(profundidad);
-  $('configuracionNotificaciones').hover(trabajandoEnEllo);
 
 
 });
 var profundidad = function(e){
     $(this).toggleClass( "z-depth-4");
-}
-var trabajandoEnEllo=function(){
-  location.href="../coomingSoon.html"
+    $(this).click(function(){
+      location.href="../views/coomingSoon.html"
+    });
 }
