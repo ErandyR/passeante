@@ -84,3 +84,15 @@ input[type="checkbox"].filled-in:checked+label:after{
 .side-nav .divider {
     margin: 32vh 0 0 0;
 }
+
+.ticket {
+    width: 100%;
+    margin-top: 45%;
+}
+
+.sesion_fondo {
+    height: 100vh;
+    background-image: url("../assets/img/logopasseante.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
