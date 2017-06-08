@@ -1,31 +1,39 @@
-.nav-perfil{
+.nav-perfil {
     text-align: center;
     background-color: #F29400;
     color: white;
 }
-.foto{
+
+.foto {
     margin-top: 4vh;
 }
 
-.datosUsuario{
+.datosUsuario {
     color: black;
 }
 
-
-@media screen and (max-width: 480px){
-    
-    .datosPorClase{
-        
+@media screen and (max-width: 480px) {
+    .datosPorClase {
         line-height: 5vh;
     }
-    
-    .salidadatos{
-        
+    .salidadatos {
         height: 4vh;
-        
+    }
+    .boton-regresar {
+        margin-top: 10vh;
+        margin-bottom: 2vh;
+    }
+    .logo-imagen {
+        width: 15vw;
+    }
+    .codigopng {
+        width: 30vw;
+        margin-left: 25vw;
     }
     
-    .boton-regresar{
-        margin-top: 10vh;
+    .publicidad-gif{
+        width: 80vw;
+        height: 10vh;
+        padding: 1vh;
     }
 }
