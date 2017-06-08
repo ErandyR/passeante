@@ -1,0 +1,40 @@
+.index{
+  background-color: #F29400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.logo-index{
+  width: 50%;
+}
+.home{
+  background-color: #00849A;
+  background-image: url(../assets/img/intro.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-home{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 15px;
+  margin-top: 90vh;
+}
+.boton-log-home{
+  background-color: transparent;
+  border: 2px solid #F29400;
+  width: 40%;
+}
+.boton-log-home:hover {
+  background-color: #F29400;
+}
+.boton-sign-home{
+  background: #F29400;
+  border-radius: 5px;
+  color: #fff;
+  width: 40%;
+}
