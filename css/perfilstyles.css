@@ -36,4 +36,9 @@
         height: 10vh;
         padding: 1vh;
     }
+    
+    .boton-trans{
+        padding 1vh;
+        margin: 1.5rem;
+    }
 }
